@@ -100,5 +100,16 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="AmrDll.dll" />
+    <Content Include="ConfigModule.dll" />
+    <Content Include="DecoderSDK.dll" />
+    <Content Include="DllDeinterlace.dll" />
+    <Content Include="dllh264.dll" />
+    <Content Include="H264Play.dll" />
+    <Content Include="hi_h264dec_v.dll" />
+    <Content Include="HW_H265dec_Win32D.dll" />
+    <Content Include="NetSdk.dll" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
